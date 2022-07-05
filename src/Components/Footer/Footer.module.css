@@ -1,0 +1,90 @@
+.lgScrBackground {
+  background-color: #fbd486;
+}
+
+.sectionContainer {
+  background-color: #fbd486;
+  /* padding-bottom: var(--space-lg); */
+  /* padding-block: var(--space-lg); */
+  max-width: 1230px;
+  margin-inline: auto;
+}
+
+.contentContainer {
+  width: min(1230px, 85%);
+  margin-inline: auto;
+  overflow: hidden;
+  padding-bottom: var(--space-lg);
+}
+
+.logo {
+  width: 5rem;
+  display: block;
+  margin-inline: auto;
+  fill: #213037;
+  padding-block: var(--space-md);
+}
+
+.footerItemsContainer {
+  display: none;
+}
+
+.copyrightMessage {
+  text-align: center;
+  font-size: 1.264rem;
+  margin-top: var(--space-md);
+  padding-bottom: var(--space-xs);
+  line-height: 1.3;
+}
+
+.allRightsReservedMessage {
+  text-align: center;
+  font-size: 1.264rem;
+  padding-block: var(--space-xs);
+}
+
+@media screen and (min-width: 600px) {
+  .logo {
+    width: 6rem;
+    padding-block: var(--space-lg);
+  }
+  .footerItemsContainer {
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    margin-top: var(--space-md);
+  }
+
+  .siteMapHeading,
+  .learnMoreHeading,
+  .connectHeading {
+    font-size: 1.422rem;
+  }
+
+  .siteMapUl,
+  .learnMoreUl,
+  .connectUl {
+    list-style-type: none;
+    font-size: 1.264rem;
+  }
+  .siteMapUl li,
+  .learnMoreUl li,
+  .connectUl li {
+    padding-block: var(--space-sm);
+  }
+
+  .socialMediaIconsContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .socialMediaIcons {
+    width: 3rem;
+    fill: #213037;
+  }
+}
+@media screen and (min-width: 900px) {
+  .logo {
+    width: 7rem;
+  }
+}

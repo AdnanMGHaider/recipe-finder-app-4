@@ -1,0 +1,12 @@
+.lgScreenSwipeMessage {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .lgScreenSwipeMessage {
+    color: rgb(180, 180, 180);
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}

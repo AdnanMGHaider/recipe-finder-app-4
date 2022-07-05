@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --space-xxs: 0.4rem;
+  --space-xs: 0.8rem;
+  --space-sm: 1.2rem;
+  --space-md: 2rem;
+  --space-lg: 3.2rem;
+  --space-xl: 5.2rem;
+  --space-xxl: 8.4rem;
+  --space-xxxl: 13.3rem;
+
+  --ivory-white: #fffff0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #213037;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+/*
+border radius
+box shadow
+color palette used in the project saved as variables (font-color, background color etc.)
+*/
+
+body::-webkit-scrollbar {
+  background-color: #fef1d7;
+  width: 1.5rem;
+  border-radius: 15px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #fef1d7;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #fbd486;
+  border-radius: 10000vw;
+}

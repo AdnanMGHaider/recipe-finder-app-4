@@ -1,0 +1,17 @@
+.leafDesign1 {
+  display: none;
+}
+
+@media screen and (min-width: 1300px) {
+  .leafDesign1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* transform: scaleX(); */
+    /* transform: scaleY(-1); */
+    display: block;
+    /* width: 70px; */
+    /* width: 7vw; */
+    width: clamp(7rem, 7vw, 18rem);
+  }
+}

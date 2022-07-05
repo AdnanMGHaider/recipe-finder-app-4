@@ -1,0 +1,10 @@
+.hamburgerMenuIcon {
+  width: clamp(3.2rem, 5vw, 5rem);
+  fill: #213037;
+}
+
+@media screen and (min-width: 768px) {
+  .hamburgerMenuIcon {
+    display: none;
+  }
+}

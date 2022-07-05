@@ -1,0 +1,17 @@
+.leafDesign2 {
+  display: none;
+}
+
+@media screen and (min-width: 1300px) {
+  .leafDesign2 {
+    position: absolute;
+    fill: #26704f;
+    bottom: 0;
+    right: 0;
+    transform: rotate(-20deg);
+    display: block;
+    /* width: 7vw; */
+    /* width: 70px; */
+    width: clamp(10rem, 10vw, 20rem);
+  }
+}

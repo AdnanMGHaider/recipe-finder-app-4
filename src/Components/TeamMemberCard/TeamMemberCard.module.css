@@ -1,0 +1,177 @@
+/* box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px; */
+/* background-color: #fce1aa; */
+/* background-color: #f8b735; */
+
+.teamMemberCard {
+  display: flex;
+  background-color: #fce1aa;
+  border-radius: 8px;
+  margin-inline: var(--space-md);
+  box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+  padding: var(--space-xs);
+  align-items: center;
+  column-gap: var(--space-xs);
+}
+
+.nameAndJobDescWrapper {
+  width: 60%;
+  background-color: #f9c55d;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-inline: var(--space-sm);
+}
+
+.imgWrapper {
+  width: 40%;
+  /* padding: var(--space-xs); */
+}
+
+.teamMemberImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  display: block;
+}
+
+.teamMemberName {
+  font-size: 1.6rem;
+  text-align: center;
+  /* background-color: #f8b735; */
+  padding: var(--space-xxs);
+  border-radius: 8px;
+  /* margin-bottom: var(--space-xs); */
+}
+
+.teamMemberJobDesc {
+  font-size: 1.422rem;
+  text-align: center;
+  font-weight: 500;
+  padding: var(--space-xxs);
+}
+
+@media screen and (min-width: 480px) {
+  .teamMemberCard {
+    /* padding: var(--space-sm); */
+    /* column-gap: var(--space-sm); */
+  }
+
+  .teamMemberName {
+    font-size: 1.8rem;
+    /* padding: var(--space-xs);
+    margin-bottom: var(--space-sm); */
+  }
+
+  .teamMemberJobDesc {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .nameAndJobDescWrapper {
+    width: 70%;
+  }
+
+  .imgWrapper {
+    width: 30%;
+  }
+}
+
+@media (min-width: 650px) {
+  .teamMemberCard {
+    margin-inline: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nameAndJobDescWrapper {
+    width: 60%;
+  }
+
+  .imgWrapper {
+    width: 40%;
+  }
+}
+
+/* .teamMemberCard {
+  display: flex;
+  flex-direction: column;
+  background-color: #fce1aa;
+  align-items: center;
+  padding: var(--space-sm);
+  border-radius: 8px;
+  box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+}
+
+.imgWrapper {
+  width: 12rem;
+  border-radius: 8px;
+  margin-bottom: var(--space-sm);
+}
+
+.teamMemberImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+.teamMemberName {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: var(--space-xs);
+  background-color: #f8b735;
+  padding: var(--space-sm);
+  border-radius: 8px;
+}
+
+.teamMemberJobDesc {
+  font-size: 1.422rem;
+  font-weight: 500;
+  line-height: 1.3;
+  text-align: center;
+}
+
+@media screen and (min-width: 400px) {
+  .teamMemberCard {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .imgWrapper {
+    margin-bottom: 0;
+  }
+
+  .nameAndJobDescWrapper {
+    margin-left: var(--space-md);
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .teamMemberCard {
+    max-width: 35rem;
+  }
+  .teamMemberName {
+    font-size: 1.8rem;
+  }
+
+  .teamMemberJobDesc {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .teamMemberCard {
+    max-width: none;
+  }
+
+  .teamMemberName {
+    padding: var(--space-xs);
+  }
+} */

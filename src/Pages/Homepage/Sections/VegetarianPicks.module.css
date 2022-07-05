@@ -1,0 +1,55 @@
+.lgScrBackground {
+  background-color: var(--ivory-white);
+}
+
+.sectionContainer {
+  background-color: var(--ivory-white);
+  max-width: 1230px;
+  margin-inline: auto;
+  padding-top: var(--space-lg);
+  /* padding-block: 3rem; */
+}
+
+.contentContainer {
+  width: min(1230px, 85%);
+  margin-inline: auto;
+  overflow: hidden;
+}
+
+.heading {
+  font-family: "Satisfy", cursive;
+  color: #26704f;
+  text-align: center;
+  font-size: clamp(3.2rem, 12vw, 5rem);
+  font-weight: 400;
+}
+
+.swipeMessageContainer {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: gray;
+  align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+  .sectionContainer {
+    padding-top: var(--space-xl);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    margin-bottom: var(--space-lg);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sectionContainer {
+    padding-top: var(--space-xxl);
+  }
+}
+
+/* .swipeMessageContainer {
+    display: none;
+  } */

@@ -1,0 +1,40 @@
+.accordionContainer {
+  width: 80%;
+  margin-inline: auto;
+}
+
+.siteMapHeading,
+.learnMoreHeading,
+.connectHeading {
+  font-size: 1.422rem;
+  cursor: pointer;
+}
+
+.siteMapLi {
+  padding-block: var(--space-xs);
+}
+
+.learnMoreLi {
+  padding-block: var(--space-xs);
+}
+
+.connectLi {
+  padding-block: var(--space-xs);
+  padding-inline: var(--space-xs);
+}
+
+.socialMediaIconsContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.socialMediaIcons {
+  width: 2.5rem;
+  fill: #213037;
+}
+
+@media screen and (min-width: 600px) {
+  .accordionContainer {
+    display: none;
+  }
+}

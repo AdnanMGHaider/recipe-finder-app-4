@@ -1,0 +1,15 @@
+.leafDesign3 {
+  display: none;
+  fill: #26704f;
+  width: 20rem;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  /* transform: rotate(-20deg); */
+}
+
+@media screen and (min-width: 1024px) {
+  .leafDesign3 {
+    display: block;
+  }
+}

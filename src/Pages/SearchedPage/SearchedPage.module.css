@@ -1,0 +1,130 @@
+.lgScrBackground {
+  background-color: #fef1d7;
+}
+
+.sectionContainer {
+  background-color: #fef1d7;
+  max-width: 1230px;
+  margin-inline: auto;
+  padding-bottom: var(--space-lg);
+  /* padding-block: var(--space-lg); */
+}
+
+.logo {
+  width: 5rem;
+  display: block;
+  margin-inline: auto;
+  cursor: pointer;
+  padding-top: var(--space-md);
+  fill: #213037;
+  /* padding-block: var(--space-md); */
+}
+
+.heading {
+  font-family: "Satisfy", cursive;
+  color: #26704f;
+  text-align: center;
+  font-size: clamp(3.2rem, 12vw, 5rem);
+  font-weight: 400;
+  padding-top: var(--space-lg);
+  margin-bottom: var(--space-lg);
+}
+
+.contentContainer {
+  width: min(1230px, 85%);
+  margin-inline: auto;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: var(--space-md);
+  padding-inline: var(--space-md);
+  padding-bottom: var(--space-lg);
+}
+
+.mealCard {
+  background-color: #fbd486;
+  border-radius: 8px;
+  padding: var(--space-sm);
+  height: max-content;
+  box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+}
+
+.mealCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+  margin-bottom: var(--space-sm);
+}
+
+@media screen and (min-width: 480px) {
+  .contentContainer {
+    row-gap: var(--space-lg);
+  }
+
+  .mealCard {
+    padding: var(--space-sm);
+  }
+
+  .mealCard img {
+    margin-bottom: var(--space-sm);
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .sectionContainer {
+    padding-bottom: var(--space-xl);
+    /* padding-block: var(--space-xl); */
+  }
+
+  .heading {
+    padding-top: var(--space-xl);
+  }
+
+  .logo {
+    width: 6rem;
+    padding-top: var(--space-lg);
+  }
+
+  .contentContainer {
+    grid-template-columns: 1fr 1fr;
+    column-gap: var(--space-md);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contentContainer {
+    column-gap: var(--space-lg);
+  }
+
+  .heading {
+    margin-bottom: var(--space-xl);
+  }
+
+  .mealCard {
+    padding: var(--space-md);
+  }
+
+  .mealCard img {
+    margin-bottom: var(--space-md);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .contentContainer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .logo {
+    width: 7rem;
+  }
+
+  .mealCard {
+    padding: var(--space-sm);
+  }
+
+  .mealCard img {
+    margin-bottom: var(--space-sm);
+  }
+}
