@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/recipe-finder-app-4/static/css/main.af8e4c35.css",
-    "main.js": "/recipe-finder-app-4/static/js/main.62667d05.js",
+    "main.js": "/recipe-finder-app-4/static/js/main.6ff1c765.js",
     "static/media/Noodles.jpg": "/recipe-finder-app-4/static/media/Noodles.5129daa10a0b78c96082.jpg",
     "static/media/Ribs.jpg": "/recipe-finder-app-4/static/media/Ribs.430259ec581131cc9841.jpg",
     "static/media/Italian.jpg": "/recipe-finder-app-4/static/media/Italian.2a0d41a3522d6833fbaf.jpg",
@@ -26,10 +26,10 @@
     "static/media/Jessica.jpg": "/recipe-finder-app-4/static/media/Jessica.eb32159c543678def9a8.jpg",
     "index.html": "/recipe-finder-app-4/index.html",
     "main.af8e4c35.css.map": "/recipe-finder-app-4/static/css/main.af8e4c35.css.map",
-    "main.62667d05.js.map": "/recipe-finder-app-4/static/js/main.62667d05.js.map"
+    "main.6ff1c765.js.map": "/recipe-finder-app-4/static/js/main.6ff1c765.js.map"
   },
   "entrypoints": [
     "static/css/main.af8e4c35.css",
-    "static/js/main.62667d05.js"
+    "static/js/main.6ff1c765.js"
   ]
 }
