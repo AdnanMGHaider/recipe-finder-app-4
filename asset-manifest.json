@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/recipe-finder-app-4/static/css/main.af8e4c35.css",
+    "main.js": "/recipe-finder-app-4/static/js/main.62667d05.js",
+    "static/media/Noodles.jpg": "/recipe-finder-app-4/static/media/Noodles.5129daa10a0b78c96082.jpg",
+    "static/media/Ribs.jpg": "/recipe-finder-app-4/static/media/Ribs.430259ec581131cc9841.jpg",
+    "static/media/Italian.jpg": "/recipe-finder-app-4/static/media/Italian.2a0d41a3522d6833fbaf.jpg",
+    "static/media/Fish.jpg": "/recipe-finder-app-4/static/media/Fish.450d056e1f24e292aa9b.jpg",
+    "static/media/Indian.jpg": "/recipe-finder-app-4/static/media/Indian.74b755ecf42fd6891ffb.jpg",
+    "static/media/MiddleEastern.jpg": "/recipe-finder-app-4/static/media/MiddleEastern.2ce267a6bb3dc06a2cde.jpg",
+    "static/media/Thai.jpg": "/recipe-finder-app-4/static/media/Thai.b77997c6a87ca0be5495.jpg",
+    "static/media/RaspberryCheeseCake.jpg": "/recipe-finder-app-4/static/media/RaspberryCheeseCake.b6cfd1ebc7c1fc7e88c3.jpg",
+    "static/media/Adnan.png": "/recipe-finder-app-4/static/media/Adnan.61e1f5a45836cd36d834.png",
+    "static/media/Julian.jpg": "/recipe-finder-app-4/static/media/Julian.adc045500fdb5d2ad60a.jpg",
+    "static/media/Pratik.jpg": "/recipe-finder-app-4/static/media/Pratik.ae6f47d5792d9f952c58.jpg",
+    "static/media/Shamir.jpg": "/recipe-finder-app-4/static/media/Shamir.7c18e04c51de62069f8d.jpg",
+    "static/media/Tara.jpg": "/recipe-finder-app-4/static/media/Tara.23b96e423701d4234f52.jpg",
+    "static/media/Pamela.jpg": "/recipe-finder-app-4/static/media/Pamela.be145ddccc8121394a67.jpg",
+    "static/media/Kevin.jpg": "/recipe-finder-app-4/static/media/Kevin.9be4cfaacd07c1d31de3.jpg",
+    "static/media/Susan.jpg": "/recipe-finder-app-4/static/media/Susan.60c5f2e9fdfa0127f65b.jpg",
+    "static/media/Sania.jpg": "/recipe-finder-app-4/static/media/Sania.1f16b5ca4219e0e12f15.jpg",
+    "static/media/Ethan.jpg": "/recipe-finder-app-4/static/media/Ethan.15fd014533f16b0e8dc0.jpg",
+    "static/media/Suarez.jpg": "/recipe-finder-app-4/static/media/Suarez.80b99ee9b97a4adc1401.jpg",
+    "static/media/Amal.jpg": "/recipe-finder-app-4/static/media/Amal.1667a3194556c0434b2b.jpg",
+    "static/media/Peter.jpg": "/recipe-finder-app-4/static/media/Peter.6f807839ec468d8238a4.jpg",
+    "static/media/Jessica.jpg": "/recipe-finder-app-4/static/media/Jessica.eb32159c543678def9a8.jpg",
+    "index.html": "/recipe-finder-app-4/index.html",
+    "main.af8e4c35.css.map": "/recipe-finder-app-4/static/css/main.af8e4c35.css.map",
+    "main.62667d05.js.map": "/recipe-finder-app-4/static/js/main.62667d05.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af8e4c35.css",
+    "static/js/main.62667d05.js"
+  ]
+}
